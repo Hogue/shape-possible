@@ -7747,7 +7747,6 @@ button.close {
 
 .title-container {
   max-width: 900px;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -7760,14 +7759,16 @@ button.close {
 }
 
 .title-container .letter-container {
-  min-width: 60px;
   padding: 5px;
-  border: 1px solid black;
   float: left;
 }
 
+.title-container .s-container {
+  width: 88px;
+  margin-top: 6px;
+}
+
 .title-container .rotate-wrapper {
-  border: 1px solid black;
   -webkit-animation: rotate-circle 2s 2s ease-out forwards;
 }
 
@@ -7775,7 +7776,7 @@ button.close {
   width: 70px;
   height: 35px;
   border-radius: 90px 90px 0 0;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   -webkit-animation: shift-top 1s 4s ease-out forwards;
 }
 
@@ -7784,13 +7785,13 @@ button.close {
   height: 35px;
   border-radius: 0px 0px 90px 90px;
   border-top: 1px solid yellow;
-  background: red;
+  background: rgba(201, 55, 86, 0.8);
 }
 
 .title-container .h-container div:nth-child(1) {
   width: 39px;
   height: 80px;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   float: left;
   z-index: 100;
 }
@@ -7798,7 +7799,7 @@ button.close {
 .title-container .h-container div:nth-child(2) {
   width: 39px;
   height: 80px;
-  background: red;
+  background: rgba(201, 55, 86, 0.8);
   -webkit-animation: slide-right 2s 2s ease-out forwards;
 }
 
@@ -7807,7 +7808,7 @@ button.close {
   height: 0;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-bottom: 80px solid red;
+  border-bottom: 80px solid rgba(25, 181, 254, 0.8);
   float: left;
 }
 
@@ -7816,18 +7817,23 @@ button.close {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 40px solid yellow;
+  border-bottom: 40px solid rgba(201, 55, 86, 0.8);
   opacity: 0;
   position: relative;
   top: 40px;
   left: 40px;
+  z-index: 10;
   -webkit-animation: fade-in 4s 2s ease-out forwards;
+}
+
+.title-container .p-container {
+  padding: 5px 15px 5px 5px;
 }
 
 .title-container .p-container div:nth-child(1) {
   width: 40px;
   height: 80px;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   float: left;
 }
 
@@ -7835,7 +7841,7 @@ button.close {
   width: 50px;
   height: 25px;
   border-radius: 90px 90px 0px 0px;
-  background: yellow;
+  background: rgba(201, 55, 86, 0.8);
   transform: rotate(90deg);
   position: relative;
   top: 43px;
@@ -7847,14 +7853,14 @@ button.close {
 .title-container .e-container div:nth-child(1) {
   width: 70px;
   height: 80px;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   float: left;
 }
 
 .title-container .e-container div:nth-child(2) {
   width: 20px;
   height: 15px;
-  background: yellow;
+  background: rgba(201, 55, 86, 0.8);
   position: relative;
   top: 15px;
   left: 49.5px;
@@ -7865,7 +7871,7 @@ button.close {
 .title-container .e-container div:nth-child(3) {
   width: 20px;
   height: 15px;
-  background: yellow;
+  background: rgba(201, 55, 86, 0.8);
   position: relative;
   top: 35px;
   left: 49.5px;
@@ -7874,24 +7880,32 @@ button.close {
 }
 
 .title-container .o-container div:nth-child(1) {
-  background: red;
+  background: rgba(201, 55, 86, 0.8);
   border-radius: 50%;
   -webkit-animation: grow 3s 2s ease-out forwards;
+}
+
+.title-container .i-container {
+  width: 42px;
 }
 
 .title-container .i-container div:nth-child(1) {
   width: 30px;
   height: 80px;
-  background: red;
-  border-left: 5px solid yellow;
-  border-right: 5px solid blue;
+  background: rgba(25, 181, 254, 0.8);
+  border-left: 5px solid rgba(201, 55, 86, 0.8);
+  border-right: 5px solid rgba(201, 55, 86, 0.8);
   margin: 0 auto;
+}
+
+.title-container .b-container {
+  padding: 5px 15px 5px 5px;
 }
 
 .title-container .b-container .rectangle-wrapper div {
   width: 40px;
   height: 80px;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   float: left;
 }
 
@@ -7899,7 +7913,7 @@ button.close {
   width: 50px;
   height: 25px;
   border-radius: 90px 90px 0px 0px;
-  background: yellow;
+  background: rgba(201, 55, 86, 0.8);
   transform: rotate(90deg);
   position: relative;
   top: 12px;
@@ -7913,7 +7927,7 @@ button.close {
   width: 50px;
   height: 25px;
   border-radius: 90px 90px 0px 0px;
-  background: blue;
+  background: rgba(201, 55, 86, 0.8);
   transform: rotate(90deg);
   position: relative;
   top: 18px;
@@ -7922,17 +7936,21 @@ button.close {
   -webkit-animation: b-bottom-hem 2s 2s ease-out forwards;
 }
 
+.title-container .l-container {
+  padding: 5px 25px 5px 5px;
+}
+
 .title-container .l-container div:nth-child(1) {
   width: 45px;
   height: 80px;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   float: left;
 }
 
 .title-container .l-container div:nth-child(2) {
   width: 45px;
   height: 40px;
-  background: red;
+  background: rgba(25, 181, 254, 0.8);
   z-index: 1;
   opacity: .9;
   position: relative;
@@ -8046,6 +8064,6 @@ button.close {
   }
   100% {
     left: 20px;
-    background: black;
+    background: rgba(201, 55, 86, 0.8);
   }
 }
