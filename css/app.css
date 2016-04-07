@@ -7748,6 +7748,7 @@ button.close {
 .title-container {
   max-width: 900px;
   text-align: center;
+  margin: 30px auto 0px auto;
 }
 
 .title-container .shape-letters {
@@ -8066,4 +8067,28 @@ button.close {
     left: 20px;
     background: rgba(201, 55, 86, 0.8);
   }
+}
+
+.main-nav {
+  height: 100px;
+  background: #7970A2;
+}
+
+.clear-fix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.selector-container {
+  margin: 30px;
+  text-align: center;
+}
+
+.selector-container .category-container {
+  width: 300px;
+  height: 300px;
+  background: #B94265;
+  margin: 30px;
+  display: inline-block;
 }
